@@ -1,5 +1,7 @@
 # VSCode Custom Local Formatters
 
+> **Note**: This is a fork of [jkillian/vscode-custom-local-formatters](https://github.com/JKillian/vscode-custom-local-formatters) published to [Open VSX](https://open-vsx.org/) for use in VS Code alternatives like VSCodium, Cursor, etc.
+
 Lets users add formatters to VSCode that run locally defined scripts.
 
 ## Motivation
@@ -15,14 +17,14 @@ Here's an example of a custom python script that sorts imports and reformats cod
 
 ![Extension in use](images/exampleUsecase.gif)
 
-
 ## Quickstart
+
 0. Install this extension through the VSCode extensions panel or [VSCode extensions marketplace](https://marketplace.visualstudio.com/items?itemName=jkillian.custom-local-formatters).
 
 1. Define your custom formatting script.
    Scripts will receive the contents of the file to be formatted over STDIN.
    They should output the formatted results over STDOUT.
-  
+
 2. Configure the extension to run your script on files of the right type.
    The script will be run with a working directory of the workspace root.
    Valid language identifiers [can be found here](https://code.visualstudio.com/docs/languages/identifiers).
