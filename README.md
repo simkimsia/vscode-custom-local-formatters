@@ -1,6 +1,8 @@
 # VSCode Custom Local Formatters
 
-> **Note**: This is a fork of [jkillian/vscode-custom-local-formatters](https://github.com/JKillian/vscode-custom-local-formatters) published to [Open VSX](https://open-vsx.org/) for use in VS Code alternatives like VSCodium, Cursor, etc.
+> **Note**: This is a fork of [jkillian/vscode-custom-local-formatters](https://github.com/JKillian/vscode-custom-local-formatters) published to [Open VSX](https://open-vsx.org/) for use in VS Code alternatives like Antigravity, Cursor, etc.
+
+> **Note**: If JKillian creates their own version and maintains on Open VSX, this fork will be archived.
 
 Lets users add formatters to VSCode that run locally defined scripts.
 
